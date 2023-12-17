@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template: 25vh 25vh 25vh 25vh/ 20vw 20vw 20vw 20vw 20vw;
+}
+
+.sidebar {
+    background-color: #38bdf8;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: grid;
+    color: #e0f2fe;
+    box-shadow: 1px 0px 5px 1px #DDD;
+    z-index: 1;
+}    
+
+.header {
+    background-color: #fff;
+    grid-row-start: 1;
+    grid-row-end: 2;    
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    background-color: #DDD;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.logo {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding: 2vh 1vw 2vh 2vw;
+}
+
+.options {
+    padding: 2vh 1vw 2vh 2vw;
+    font-size: medium;
+    position: relative;
+    bottom: 10vh;
+    font-weight: bold;
+}
+
+.support {
+    position: relative;
+    padding: 2vh 1vw 2vh 2vw;
+    font-size: medium;
+    bottom: 20vh;
+    font-weight: bold;
+}
+
+.searchbar {
+    width: 50%;
+    padding: 0 1vw 4vh 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    width: 40%;
+    padding: 3vh 0 0 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.greeting {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 0 0 6vh;
+}
+
+.buttons {
+    position: relative;
+    left: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo > svg {
+    width: 50px;
+    height: 50px;
+}
+
+.logo > p {
+    font-size: xx-large;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 0.5vh 0;
+}
+
+.searchbar > svg {
+    padding-right: 1vw;
+}
+
+.searchbar > input {
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 20px;
+    transform: scaleY(1.2);
+    background-color: #DDD;
+}
+
+.user > svg {
+    padding-right: 1.5vw;
+    width: 30px;
+    height: 30px;
+}
+
+.user > h3 {
+    padding-top: 0.6vh;
+}
+
+/* .searchbar {
+    width: 100px;
+    background-color: red; 
+}
+
+.header > svg {
+    width: 50px;
+    height: 50px;
+} */
+
+.option > svg {
+    width: 25px;
+    height: 25px;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+/* .projects p {
+    padd
+}
+
+.projects .card {
+    border: 1px solid black;
+    width: 20%;
+}
+*/
+
+
+svg {
+    width: 25px;
+    height: 25px;
+}
